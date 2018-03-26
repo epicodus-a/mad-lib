@@ -3,10 +3,10 @@ $(document).ready(function(){
     event.preventDefault();
     for(let i = 1; i < 10; i ++){
       let val = $("input#input-"+i).val();
-      $(".mad-lib-story").show();
-      $("#mad-lib-form").hide();
       $(".output-"+i).text(val);
     }
+    $(".mad-lib-story").show();
+    $("#mad-lib-form").hide();
     // alert(vals);
     // var userinput1 = $("input#input-1").val();
     // var userinput2 = $("input#input-2").val();
